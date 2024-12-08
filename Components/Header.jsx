@@ -1,6 +1,6 @@
-import { assets } from '@/assets/assets'
-import Image from 'next/image'
-import React from 'react'
+import { assets } from '@/assets/assets';
+import Image from 'next/image';
+import React from 'react';
 
 const Header = () => {
   return (
@@ -31,4 +31,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
