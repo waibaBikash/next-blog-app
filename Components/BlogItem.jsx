@@ -13,7 +13,10 @@ const BlogItem = ({title,
       <Link href={`/blogs/${id}`}>
       <Image src={image} alt='' width={400} height={400} className='border-b border-black'/>
       </Link>
-      <p className='ml-5 mt-5 px-1 inline-block bg-black text-white text-sm'>{category}</p>
+      <p
+       className='ml-5 mt-5 px-1 inline-block bg-black text-white text-sm'>
+        {category}
+       </p>
        <div className='p-5'>
  <h5 className='mb-2 text-lg font-medium tracking-tight text-gray-900 '>{title}</h5>
  <p className='mb-3 text-sm tracking-tight text-gray-700'>{description}</p>
