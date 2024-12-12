@@ -1,7 +1,7 @@
-import { assets } from '@/assets/assets'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import { assets } from '@/assets/assets';
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 const BlogItem = ({title,
   description,
