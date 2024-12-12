@@ -1,12 +1,13 @@
-import { blog_data } from '@/assets/assets'
-import React, { useState } from 'react'
-import BlogItem from './BlogItem'
+import { blog_data } from '@/assets/assets';
+import React, { useState } from 'react';
+import BlogItem from './BlogItem';
 
 const BlogList = () => {
 
 
   //  state variable
-  const [menu, setMenu] = useState("All");
+  const [menu, 
+    setMenu] = useState("All");
 
   return (
     <div>
