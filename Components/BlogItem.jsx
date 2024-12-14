@@ -34,7 +34,9 @@ const BlogItem = ({title,
           <Link href={`/blogs/${id}`} 
           className='inline-flex items-center py-2 font-semibold text-center'>
             Read more
-             <Image src={assets.arrow} alt='' width={12} className='ml-2'/>
+             <Image 
+             src={assets.arrow} 
+             alt='' width={12} className='ml-2'/>
           </Link>
        </div>
     </div>
