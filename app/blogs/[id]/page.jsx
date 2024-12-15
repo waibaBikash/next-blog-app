@@ -1,5 +1,6 @@
 'use client'
 import { assets, blog_data } from '@/assets/assets';
+import Footer from '@/Components/Footer';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 
@@ -54,7 +55,16 @@ const page = ({params}) => {
          <p className='my-3'>Managing your lifestyle is a journey that requires commitment and self-awareness. 
           By following this step-by-step guide, you can control of your life and make meaninful changes that lead to a more balanced and fulfilling lifestyle. Remember that it's akay to seek support and guidance from professionals or mentors along the way. Your well-being and happiness are worth the effort.
          </p>
+         <div className='my-24'>
+            <p className='text-black font-semibold my-4'>Share this article on social media</p>
+              <div className='flex'>
+                 <Image src={assets.facebook_icon} width={50} alt=''/>
+                 <Image src={assets.twitter_icon} width={50} alt=''/>
+                 <Image src={assets.googleplus_icon} width={50} alt=''/>
+              </div>
+         </div>
       </div>
+      <Footer/>
     </>:<></>
   )
 }
