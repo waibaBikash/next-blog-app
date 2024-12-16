@@ -26,10 +26,15 @@ const page = ({params}) => {
       fetchBlogData();
    },[])
   return (data?<>
-    <div className='bg-gray-200 py-5 p-5 md:px-12 lg:px28'>
+    <div
+      className='bg-gray-200 py-5 p-5 md:px-12 lg:px28'>
        <div className='flex justify-between items-center'>
         <Link href='/'>
-         <Image src={assets.logo} width={180} alt='' className='w-[130px] sm:w-auto'/>
+         <Image 
+          src={assets.logo} 
+          width={180} alt='' 
+          className='w-[130px] sm:w-auto'
+          />
          </Link>
          <button className='flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-black shadow-[-7px_7px_0px_#000000] '>
           Get Started <Image src={assets.arrow} alt=''/>
