@@ -52,7 +52,10 @@ const page = ({params}) => {
                src={data.author_img}
                 width={60} height={60}
                  alt=''/>
-             <p className='mt-1 pb-2 text-lg max-w-[740px] mx-auto'>{data.author}</p>
+             <p 
+              className='mt-1 pb-2 text-lg max-w-[740px] mx-auto'>
+                {data.author}
+                </p>
          </div>
     </div>
       <div className='mx-5 max-w-[800px] md:mx-auto mt-[-100px] mb-10'>
