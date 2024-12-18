@@ -3,7 +3,7 @@ import { assets, blog_data } from '@/assets/assets';
 import Footer from '@/Components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 
 const page = ({params}) => {
@@ -139,4 +139,4 @@ const page = ({params}) => {
   )
 }
 
-export default page
+export default page;
