@@ -27,6 +27,7 @@ export async function POST(request){
   const path = `./public/${timestamp}_${image.name}`
   await writeFile(path,buffer);
   const imgUrl = `/${timestamp}_${image.name}`
+  
   console.log(imgUrl);
   return NextResponse.json({imgUrl})
   
