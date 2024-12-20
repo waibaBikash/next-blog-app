@@ -1,6 +1,6 @@
 import { ConnectDb } from "@/lib/config/db";
 import { log } from "console";
-import {writeFile} from 'fs/promises'
+import {writeFile} from 'fs/promises';
 
 const { NextResponse } = require("next/server");
 
