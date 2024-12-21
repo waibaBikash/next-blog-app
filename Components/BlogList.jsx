@@ -43,7 +43,8 @@ const BlogList = () => {
             image={item.image} 
             title={item.title} 
             description={item.description} 
-            category={item.category}/>
+            category={item.category}
+            />
           })}
        </div>
     </div>
